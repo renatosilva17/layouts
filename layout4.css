@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+}
+
+.nav{
+    background-color: plum;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 20px;
+}
+
+.header{
+    background-color: tomato;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-size: 20px;
+}
+
+.article{
+    background-color: aquamarine;
+    width: 70vw;             
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: blueviolet;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.aside{
+    background-color: gray;
+    width: 20vw;
+    display: flex;  
+    justify-content: center;
+    flex-direction: end;
+    align-items: center;
+    font-size: 20px;
+}
+
+.caixa2{
+    display: flex;
+    height: 60vh;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.caixa1{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}

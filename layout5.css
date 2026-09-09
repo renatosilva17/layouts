@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 90vw;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: plum;
+    height: 100vh;
+    width: 10vw;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 10vh;
+    width: 100vw;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    height: 90vh;
+    width: 80vw; 
+    gap: 200px;   
+    flex-grow: 1;                                         
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 30vh;
+    width: 30vw;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    height: 10vh;
+    width: 15vw;
+}
+
+.pote{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 80vh;
+    width: 10vw;
+    gap: 80px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 10vh;
+    width: 5vw;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    height: 10vh;
+    width: 100vw;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 5vh;
+    width: 5vw;
+    gap: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100vw;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80vw;
+}
